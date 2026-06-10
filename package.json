@@ -1,0 +1,19 @@
+{
+  "name": "angular-governor-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "CLI-first governance tool for Angular projects",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "clean": "pnpm -r clean"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "vitest": "^3.0.0"
+  }
+}

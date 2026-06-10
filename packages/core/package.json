@@ -1,0 +1,31 @@
+{
+  "name": "@angular-governor/core",
+  "version": "0.1.0",
+  "description": "Domain model, scanner, scoring and file system abstraction for Angular Governor",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "fast-glob": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.20",
+    "typescript": "^5.6.0",
+    "vitest": "^3.0.0"
+  }
+}
