@@ -1,0 +1,8 @@
+{
+  "name": "@angular-governor/github-action",
+  "version": "0.1.0",
+  "description": "GitHub Action wrapper for Angular Governor (planned)",
+  "license": "MIT",
+  "type": "module",
+  "private": true
+}

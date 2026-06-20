@@ -1,0 +1,8 @@
+{
+  "name": "@angular-governor/dashboard",
+  "version": "0.1.0",
+  "description": "Static HTML dashboard generator for Angular Governor (planned)",
+  "license": "MIT",
+  "type": "module",
+  "private": true
+}

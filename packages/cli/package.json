@@ -1,0 +1,32 @@
+{
+  "name": "angular-governor",
+  "version": "0.1.0",
+  "description": "CLI-first governance tool for Angular projects",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "angular-governor": "./dist/bin.js",
+    "ng-governor": "./dist/bin.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run --passWithNoTests",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@angular-governor/core": "workspace:*",
+    "@angular-governor/reporters": "workspace:*",
+    "@angular-governor/rules": "workspace:*",
+    "commander": "^13.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.20",
+    "typescript": "^5.6.0",
+    "vitest": "^3.0.0"
+  }
+}
