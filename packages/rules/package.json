@@ -2,7 +2,7 @@
   "name": "@angular-governor/rules",
   "version": "0.1.0",
   "description": "Rule implementations for Angular Governor",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -22,7 +22,7 @@
     "@angular-governor/core": "workspace:*"
   },
   "devDependencies": {
-    "typescript": "^5.6.0",
-    "vitest": "^3.0.0"
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.7"
   }
 }
