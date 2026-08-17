@@ -2,7 +2,7 @@
   "name": "@angular-governor/core",
   "version": "0.1.0",
   "description": "Domain model, scanner, scoring and file system abstraction for Angular Governor",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",

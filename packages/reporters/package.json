@@ -2,7 +2,7 @@
   "name": "@angular-governor/reporters",
   "version": "0.1.0",
   "description": "Report generation for Angular Governor",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",

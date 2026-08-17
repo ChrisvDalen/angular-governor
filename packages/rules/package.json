@@ -2,7 +2,7 @@
   "name": "@angular-governor/rules",
   "version": "0.1.0",
   "description": "Rule implementations for Angular Governor",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",

@@ -270,4 +270,8 @@ Register it in `packages/rules/src/index.ts` and add a spec next to it.
 
 ## 📄 License
 
-MIT
+**All rights reserved.** Copyright (c) 2026 Chris van Dalen.
+
+This project is source-available for reading, but it is not open source. No
+permission is granted to use, copy, modify or distribute it. Licensing terms
+may be announced later.

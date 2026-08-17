@@ -2,7 +2,7 @@
   "name": "angular-governor",
   "version": "0.1.0",
   "description": "CLI-first governance tool for Angular projects",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
