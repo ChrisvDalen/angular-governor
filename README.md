@@ -4,7 +4,7 @@
 
 **CLI-first governance for Angular projects.**
 
-Angular Governor is a CLI-first governance tool for Angular projects.
+Angular Governor is a CLI-first governance tool for modern Angular 22 projects.
 It scans your codebase for architecture risks, maintainability issues,
 modern Angular adoption, testing gaps and performance risks.
 It generates JSON, Markdown and static dashboard reports and can be used
@@ -55,7 +55,7 @@ reports to `.angular-governor/`.
 ```text
 Angular Governor Scan Complete
 Project: my-angular-app
-Angular version: 21.0.0
+Angular version: 22.0.0
 Overall score: 72/100
 Scores:
 - Project Health: 85
@@ -179,7 +179,7 @@ jobs:
   angular-governor:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Run Angular Governor
         uses: ChrisvDalen/angular-governor-action@v1
         with:
@@ -195,6 +195,8 @@ uploads the `.angular-governor/` reports as a build artifact.
 ## 🛠 Development
 
 Angular Governor is a pnpm monorepo:
+
+**Prerequisites:** Node.js 24.13.1+ and pnpm 11.22.0.
 
 ```text
 angular-governor/
